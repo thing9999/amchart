@@ -1,0 +1,30 @@
+{
+  "name": "admin",
+  "version": "1.0.0",
+  "description": "My rad Nuxt.js project",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "NUXT_HOST=0.0.0.0 NUXT_PORT=3000 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "nuxt": {
+    "host": "0.0.0.0",
+    "port": "3000"
+   },
+  "dependencies": {
+    "@amcharts/amcharts4": "^4.9.24",
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "echarts": "^4.8.0",
+    "nuxt": "^2.0.0",
+    "reconnecting-websocket": "^4.4.0",
+    "tachyons": "^4.11.1",
+    "vue-echarts": "^5.0.0-beta.0"
+  },
+  "devDependencies": {
+    "webpack-node-externals": "^1.7.2"
+  }
+}
