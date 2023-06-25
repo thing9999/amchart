@@ -1,22 +1,4 @@
-# admin
 
-> My rad Nuxt.js project
+arm chart 사용
 
-## Build Setup
-
-```bash
-# install dependencies
-$ npm install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+해외 코인정보를 OHLC 형태의 그래프로 그림
